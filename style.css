@@ -1,0 +1,13 @@
+:root { --paper:#FAF2DD; --sheet:#FFFBF2; --ink:#2B2838; --muted:#7A7286; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink);
+  font:16px/1.7 -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; }
+main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+h1 { font-size:34px; line-height:1.2; margin:0 0 6px; letter-spacing:-.01em; }
+h2 { font-size:20px; margin:32px 0 8px; }
+p, li { color:var(--ink); }
+.muted { color:var(--muted); }
+.card { background:var(--sheet); border:1px solid rgba(43,40,56,.1); border-radius:22px;
+  padding:20px 22px; margin:20px 0; box-shadow:2px 6px 14px rgba(36,26,32,.08); }
+a { color:var(--ink); font-weight:600; }
+nav { display:flex; gap:18px; margin-bottom:28px; font-weight:600; }
